@@ -1,0 +1,5 @@
+Background 60% - #344A53
+
+Primary 30% - #4EAFD3
+
+Accent 10% - #E6F4F1

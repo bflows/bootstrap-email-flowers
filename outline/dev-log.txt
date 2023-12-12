@@ -1,0 +1,10 @@
+12/11/2023,
+	6:00pm - 7:00pm, Brainstorm and Outlining email design
+	- Sketched design on Microsoft Paint
+	- Outlined design for desktop
+
+12/11/2023,
+	7:00pm - 8:00pm, Basic Bootstrap responsive design
+	- html5 skeleton, link styles.css, link and add bootstrap script
+	- create 1 row & 3 columns
+	- basic content filler
