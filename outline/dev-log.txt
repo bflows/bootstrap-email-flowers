@@ -4,7 +4,66 @@
 	- Outlined design for desktop
 
 12/11/2023,
-	7:00pm - 8:00pm, Basic Bootstrap responsive design
+	7:00pm - 8:30pm, Basic Bootstrap responsive design
 	- html5 skeleton, link styles.css, link and add bootstrap script
 	- create 1 row & 3 columns
+	- uploaded repository to github
 	- basic content filler
+
+12/11/2023,
+	8:30pm - 10:30pm, Left bar with category
+	- added profile pic, name, and email placeholder (from codeacademy css flexbox social profile lesson)
+	- compose button
+	- categories
+	- selected category styles
+	- finished hover css for categories
+
+12/12/2023,
+	5:30pm - 7:30pm, Email list
+	- search bar with icon (https://www.youtube.com/watch?v=3Y0_DcOYPlw)
+	- create email card
+	- style email card
+	- max-height for cards to create a list to scroll
+	- customize scroll wheel
+	- changed height, width, padding for compose button
+
+how do I add arrows for dropdown menus when the screen size is smaller than desktop
+
+12/13/2023,
+	6:00pm - 8:00pm, Email inspect
+	- fixed search bar
+	- add email inspect
+	- email subject title
+	- email content text
+	- email sent date & time
+	- text area & scroll bar customized + not resizeable
+	- added reply button + css styles
+	- scroll bar for email inspect content
+	- add reply button with textarea form
+
+
+12/15/2023,
+	5:30pm - 6:30pm, Touch ups
+	- added padding for compose & reply button
+	- changed profile pic and name size
+	- changed some fonts & all sizes for text
+
+12/15/2023,
+	9:30pm - 11:00pm, Finishing touch ups
+	- added icon to email categories
+	- margins, padding, sizes
+	- add a trash button for email-inspect
+	- added a attatchment button for emails
+
+12/18/2023,
+	2:30pm - 4:45pm, Final Draft
+	- relace name with compose button
+	- media query for name & user image
+	- max width for search bar mobile
+	- bottom bargin for email list mobile
+	- smaller icon size for buttons next to reply button
+	- changed fonts
+	- bigger size for category icons
+	- bigger font weight for compose button
+	- bigger font-size pencil icon
+	- width for compose button responsive md-sm

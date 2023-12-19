@@ -6,19 +6,127 @@
     <link rel="stylesheet" href="styles.css">
     <title>Bootstrap Email Flowers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2">
-                col-2
+            <div class="col-lg-3 col-md-2 p-0 bg-color">
+                <header>
+                    <img src="https://s3.eu-central-1.amazonaws.com/e-sathi/uploads/photos/2023/09/e-sathi_90fae755cfa40b8dc564f9e6c3d4a9ff.jpg" alt="Profile image" class="profile-image">
+                    <div class="profile-card">
+                        <a class="profile-name">Welcome, Billy!</a>
+                        <a class="user-name">Billy</a>
+                    </div>
+                </header>
+                <div class="compose-button">
+                    <button type="button" class="send-compose"><i class='bx bx-pencil'></i>Compose</button>
+                </div>
+                <nav>
+                    <div class="category-box selected-category">
+                        <i class="bx bxs-inbox category-icon selected-category-icon"></i>
+                        <a href="#" class="category-text select-cp">Inbox</a>
+                    </div>
+                    <div class="category-box">
+                        <i class="bx bx-star category-icon"></i>
+                        <a href="#" class="category-text">Starred</a>
+                    </div>
+                    <div class="category-box">
+                        <i class='bx bx-send category-icon'></i>
+                        <a href="#" class="category-text">Sent</a>
+                    </div>
+                    <div class="category-box">
+                        <i class='bx bx-file-blank category-icon'></i>
+                        <a href="#" class="category-text">Drafts</a>
+                    </div>
+                    <div class="category-box">
+                        <i class="bx bx-archive category-icon"></i>
+                        <a href="#" class="category-text">Archive</a>
+                    </div>
+                </nav>
             </div>
-            <div class="col-4">
-                col-4
+            <div class="col-lg-4 col-md-4 p-0 bg-color">
+                <div class="search-box">
+                    <form>
+                        <input type="text" name="" placeholder="Search inbox...">
+                        <button type="submit"><i class="bx bx-search search-icon" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+
+                <div class="email-list">
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">9:30pm</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    <div class="email-card selected-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email title</h5>
+                            <p class="list-email-date">6:20pm</p>
+                        </div>
+                        <p class="text-overflow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">Yesterday</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">Monday</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">Dec 1</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">Jul 4, 2018</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    <div class="email-card">
+                        <div class="card-title">
+                            <h5 class="email-subject">Email Subject</h5>
+                            <p class="list-email-date">02/16/2004</p>
+                        </div>
+                        <p class="text-overflow">Content of the email with all information needed. Some more text to see if it wraps.</p>
+                    </div>
+                    
+                </div>
+                
             </div>
-            <div class="col-6">
-                col-6
+            <div class="col-lg-5 col-md-6 p-0 bg-color">
+                <div class="email-inspect">
+                    <h3 class="email-inspect-subject">Email title</h3>
+                    <p class="email-inspect-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="email-inspect-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="email-inspect-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="inspect-date-time pt-3">6:20 PM</p>
+                    <p class="inspect-date-time">December 13, 2023</p>
+                </div>
+                <div class="email-reply">
+                    <form class="email-reply-form">
+                        <textarea rows="10" cols="20" class="email-reply-text remove-resize" placeholder="Reply to email..." required></textarea>
+                        <div class="email-buttons">
+                            <input type="submit" value="Reply">
+                            <button type="button" class="trash-button"><i class='bx bxs-trash'></i></button>
+                            <button type="button" class="attatchment-button"><i class='bx bx-paperclip'></i></button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
