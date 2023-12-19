@@ -56,7 +56,7 @@ how do I add arrows for dropdown menus when the screen size is smaller than desk
 	- added a attatchment button for emails
 
 12/18/2023,
-	2:30pm - 4:45pm, Final Draft
+	2:30pm - 5:30pm, Final Draft
 	- relace name with compose button
 	- media query for name & user image
 	- max width for search bar mobile
