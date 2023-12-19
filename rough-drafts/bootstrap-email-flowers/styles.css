@@ -1,0 +1,66 @@
+.container-fluid{
+   
+}
+
+.my-row{
+   min-height: 100vh;
+}
+
+.grey-border{
+    border: 1px solid rgb(236, 234, 234);
+    box-sizing: border-box;
+}
+
+
+.black-border{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.email-col{
+
+}
+
+.email-list{
+    padding: 10px;
+    background-color: azure;
+    overflow-y: scroll;
+
+   height: 400px;
+}
+
+.short-email-list{
+    height: 300px ;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    
+}
+
+.profile-name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    background-color: darkgray;
+    height: 15vb;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    /* margin-top: 5%; */
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

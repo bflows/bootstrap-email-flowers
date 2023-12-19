@@ -1,0 +1,24 @@
+Email Template - Boostrap Grid Project - Dev Log
+
+
+11/27/2023,
+	8:30pm - 10:30pm, Understand bootstrap and create basic layout
+	 - Watched youtube videos to fully understand Bootstrap Grid
+	 - Created the directory, html, and css file
+	 - created a basic container and row with 2 columns
+
+11/28/2023,
+	5:30pm - 7:30pm, Learn more bootstrap Grid
+	watch youtube videos
+	mess with bootstrap grid in visual studio code
+
+11/29/2023
+	7:30pm - 9:30pm, Study and Practice Bootstrap Grid
+	watch more YT videos
+	practice using BootStrap Grid in VS Code
+	complete a basic layout with 3 responsive layouts for lg, md, sm
+
+11/30/2023
+	5:00pm - 06:30pm, Brainstorming/outlining and Design phase
+	design email template layout
+	basic large display with grid 1 row 3 columns

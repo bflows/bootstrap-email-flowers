@@ -1,0 +1,26 @@
+Simple Bootstrap Grid Email Template
+
+12/5/2023,
+	6:30PM - 7:30PM, Email layout
+	- Create simple-email-template directory
+	- Create index.html & style.css files
+	- Create Bootstrap Grid row w/ 3 cols
+	- Add bg-color to cols
+	- Added Categories, email list, & email inspect
+	- Reply to email input & button
+
+12/7/2023
+	12:30PM - 1:30PM, Detailed touch ups
+	- Search bar w/ icon for email list
+	- Email list: Email subject & time align
+
+12/09/2023
+	11:00pm - 12:00am, Small details / touch ups
+	- Category bar is smaller on full screen size
+	- removed highlight from search bar in email list
+	- added <textarea> to reply for more visibility
+	- little spacing and margins adjustments
+	- scroll bar customization
+	- add bg color, radius, & hover to reply button
+	- max height & width for reply text area
+	- compose color and border removed + hover
