@@ -67,3 +67,5 @@ how do I add arrows for dropdown menus when the screen size is smaller than desk
 	- bigger font weight for compose button
 	- bigger font-size pencil icon
 	- width for compose button responsive md-sm
+	- changed color for scroll bar
+	- changed filler text with content
